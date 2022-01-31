@@ -1,0 +1,16 @@
+                                                                      Proof Of Concept 
+
+
+
+Client Requirements: 
+
+Staff should be able to communicate with guests via SMS 
+This must include receiving messages from guests, Customized templates, and images.
+Scheduled messages must be taken care of when the guest initiates the chat.
+ Twilio SDKs
+Twilio's SDKs are used to create video conversations, make VoIP phone calls, or implement real-time chat. Performing it on the browser can be done using Javascript SDKs; we also have ios SDKs and Android SDKs.
+We can send SMS to guests by using Twilio Programmable Messaging Quickstart for C# with .NET Framework and responding to an incoming text message.
+We can also send notifications directly to the guest by SMS using notify feature provided by Twilio SDK.
+The guest can receive voice responses if we implement a Programmable voice feature provided by server-side helper libraries. 
+We can also send a message with an image URL directly to the guest and can also make an outbound phone call with c#
+Listening to client events, Creating a channel, Listening to channel events, Joining other channels, and deleting a channel can also be done by Twilio SDKs.
